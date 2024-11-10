@@ -37,7 +37,7 @@ const myFunction = function(){
 console.log(typeof myFunction);
 
 
-// NOTE: JS is a dynamically typed language, which means the type of data are defined at teh run time.
+// NOTE: JS is a dynamically typed language, which means the type of data are defined at the run time.
 // where as TypeScript is statically typed.
 
 // NOTE: if you want to master JS, just master the Objects and web events or browser events of browser. 
@@ -59,3 +59,27 @@ console.log(typeof myFunction);
 // Function  =>  function
 // Object  =>  object
 
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack -> (Primitive datatypes) & Heap -> (Non-primitive)
+
+let myYoutubeName = "Sunny Dev"
+
+let anotherName = myYoutubeName
+anotherName = "Code sidekick"
+
+console.log(myYoutubeName)
+console.log(anotherName)
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
