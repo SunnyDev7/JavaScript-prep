@@ -61,6 +61,26 @@ console.log(tinderUser.hasOwnProperty("isLoggedIn")); //this give true if proper
 
 
 
+//====================================== part-3 ===============================================================
+
+
+const course = {
+    courseName: "js in German",
+    price: "999",
+    courseInstructor: "Sunny"
+  }
+  
+  course.courseInstructor // this is one way to get values, but gets tedious when there are lot to extract
+  
+  const {courseInstructor} = course // this is the best way to destructure an object
+  console.log(courseInstructor);
+
+
+  //if you want to rename a property in object and destructure it, below is the way
+  const {courseInstructor: instructor} = course
+  console.log(instructor);
+  
+
 
 
 
