@@ -23,7 +23,7 @@ if (true) {
 //console.log(b); //this will give o/p as b is undefined
 console.log("Outer", a); //but this will print the value of c which is a problem
 
-//note: Global scope in web browser is Window, and in node env is different.
+//note: Global scope in web browser is Window object, and in node env is empty object {}.
 
 //+++++++++++++++++++++++++++++++++++ Scope two ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
