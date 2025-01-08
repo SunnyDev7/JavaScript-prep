@@ -61,6 +61,22 @@ const langs = [
     },
 ]
 
+const areas = [
+    {
+        name: "Neustadt",
+        code: "39106"
+    },
+    {
+        name: "Altstadt",
+        code: "39120"
+    },
+    {
+        name: "olvenstedt",
+        code: "39104"
+    },
+]
+
+
 langs.forEach((e) => {
     console.log(e.name);
 })
